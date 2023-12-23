@@ -30,7 +30,7 @@
                 <div class="col-9">
             <div class="mb-3">
                 <label for="title" class="form-label"><b>Название</b></label>
-                <input type="text" class="form-control" id="title" name="title" th:field="*{name}" placeholder="Предполагаемая должность, например, Java разработчик">
+                <input type="text" class="form-control" id="title" name="name" th:field="*{name}" placeholder="Предполагаемая должность, например, Java разработчик">
             </div>
             <div class="mb-3">
                 <label for="description" class="form-label"><b>Описание</b></label>
@@ -51,6 +51,8 @@
                         <div class="col-4"><button class="btn btn-success w-100" type="submit">Обновить</button></div>
                     </div>
                 </div>
+            </div>
+            </div>
             </div>
         </form>
     </div>
